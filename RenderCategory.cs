@@ -1,0 +1,21 @@
+public enum RenderCategory
+{
+	Islands,
+	Playingfield,
+	Background,
+	Shapes,
+	AnalogUI,
+	BuildingsStatic,
+	BuildingsDynamic,
+	BuildingsGlass,
+	MapResources,
+	FluidMapResources,
+	ShapeMapResources,
+	Trains,
+	SelectionAndBp,
+	Effects,
+	Tunnels,
+	Fluids,
+	BurstBackground,
+	Misc
+}

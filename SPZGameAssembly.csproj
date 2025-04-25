@@ -1,0 +1,108 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>SPZGameAssembly</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="ALINE">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\ALINE.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Core">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Core">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks.Win64">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Facepunch.Steamworks.Win64.dll</HintPath>
+    </Reference>
+    <Reference Include="LeTai.TranslucentImage">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\LeTai.TranslucentImage.dll</HintPath>
+    </Reference>
+    <Reference Include="SPZPluginsAssembly">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\SPZPluginsAssembly.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="HBAO.Universal.Runtime">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\HBAO.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Tayx.Graphy">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Tayx.Graphy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.Services.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Authentication">
+      <HintPath>..\Shapez.2.Alpha.13\Shapez.2.Alpha.13\Shapez.2.Alpha.13\shapez 2_Data\Managed\Unity.Services.Authentication.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
